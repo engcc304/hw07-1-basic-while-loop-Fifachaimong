@@ -30,3 +30,23 @@
         [7] Hello World
 
 */
+#include <stdio.h>
+int main(){
+    int i = 1;
+    int n;
+    printf("Test case:\n");
+    scanf("%d",&n);
+    printf("Output:\n");
+    while (i <= n)
+    {if (n%2 == 1)
+    {
+     printf("[%d] Hello World\n",i);
+    }
+    else{
+     printf("(%d) Hello World\n",i);
+    }
+     i++;
+    }
+}
+
+    
